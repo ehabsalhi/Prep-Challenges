@@ -24,7 +24,7 @@
         {
             "language": "javascript",
             "source": [
-                "let count = 0;\n  for (let i =0 ; i < s.length ; i++ ){\n    if(s[i] === t[i]){count ++}\n\n    else{break}  \n}\n    \n    let leS = s.length - count\n    let leT = t.length - count\n    if(k >= leS + leT && (k - leS - leT) %2 == 0 || k>= t.length+s.length){\n       return(\"Yes\")\n    }\n    else{return(\"No\")}"
+                "let count = 0;\n  for (let i =0 ; i < s.length ; i++ ){\n    if(s[i] === t[i]){count ++}\n\n    else{break}  \n}\n    \n    let leS = s.length - count ;\n    let leT = t.length - count ;\n    if(k >= leS + leT && (k - leS - leT) %2 == 0 || k>= t.length+s.length){\n       return(\"Yes\")\n    }\n    else{return(\"No\")}"
             ],
             "outputs": []
         },
